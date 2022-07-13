@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="145dp"
+        android:layout_height="34dp"
+        app:srcCompat="@drawable/logo"
+        tools:layout_editor_absoluteX="48dp"
+        tools:layout_editor_absoluteY="9dp" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="151dp"
+        android:layout_height="100dp"
+        app:srcCompat="@drawable/image"
+        tools:layout_editor_absoluteX="48dp"
+        tools:layout_editor_absoluteY="54dp" />
+
+    <Button
+        android:id="@+id/parent_button"
+        android:layout_width="135dp"
+        android:layout_height="16dp"
+        android:background="@drawable/button_background_color"
+        android:backgroundTint="#1ACEBB"
+        android:text="Compte parent"
+        android:textColor="#FFFFFF"
+        android:textSize="8sp"
+        tools:layout_editor_absoluteX="58dp"
+        tools:layout_editor_absoluteY="164dp" />
+
+    <Button
+        android:id="@+id/chauffeur_button"
+        android:layout_width="135dp"
+        android:layout_height="16dp"
+        android:background="@drawable/button_background_color"
+        android:backgroundTint="#1ACEBB"
+        android:text="Compte chauffeur"
+        android:textColor="#FFFFFF"
+        android:textSize="8sp"
+        tools:layout_editor_absoluteX="58dp"
+        tools:layout_editor_absoluteY="188dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>
